@@ -188,4 +188,4 @@ def test_successful_delete_self_pet_1():
     assert status == 200
     # assert pet_id not in my_pets.values()
     assert res.headers['content-type'] == 'text/html; charset=utf-8'
-    assert 'Date' in res.headers  # - проверка response headers (как проверить актуальность даты?)
+    assert 'Date' in res.headers  # - проверка response headers 
